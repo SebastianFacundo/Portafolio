@@ -29,7 +29,7 @@ header nav {
 
 .anim_t {
   position: relative;
-  animation: move_titulo 2s forwards;
+  animation: move_titulo 1.5s forwards;
 }
 
 .presentacion {
@@ -39,8 +39,8 @@ header nav {
 .presentacion img {
   position: relative;
   width: 80px;
-  height: 90px;
-  object-fit: cover;
+  height: 80px;
+  object-fit:fill;
   border-radius: 50%;
   border: 2px solid #070533;
   box-shadow: 2px 1px 4px black;
@@ -56,11 +56,11 @@ header nav {
 
 
 .anim_1 {
-  animation: move_pres 2s both;
+  animation: move_pres 1.5s both;
 }
 
 .anim_2 {
-  animation: move_pres 3s forwards;
+  animation: move_pres 2.5s forwards;
 }
 
 .aptitudes img {
