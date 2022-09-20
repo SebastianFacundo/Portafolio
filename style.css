@@ -115,6 +115,16 @@ footer a :hover {
   transform: scale(1.3);
 }
 
+.nombre a{
+  font-weight: bold;
+   font-size: large;
+   text-decoration: none;
+}
+
+.nombre a:hover{
+ color: black;
+}
+
 @keyframes move_saludo {
   0% {
     left: -100%;
